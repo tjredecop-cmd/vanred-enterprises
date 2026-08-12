@@ -9,12 +9,10 @@ bale_count: 15051
 wrap: Net Wrap & Twine
 pickup: MegaWidePlus
 summary: 15,051 bales • MegaWidePlus pickup • Net wrap & twine
-main_image: assets/2014-john-deere-569-main.jpeg
+main_image: assets/88FE5CDC-FF3C-467F-88DB-443CC3FB168B.jpg
 images:
-  - assets/2014-john-deere-569-main.jpeg
-  - assets/2014-john-deere-569-drive.jpeg
-  - assets/2014-john-deere-569-belts.jpeg
-  - assets/2014-john-deere-569-pickup.jpeg
-  - assets/2014-john-deere-569-side.jpeg
+   - assets/88FE5CDC-FF3C-467F-88DB-443CC3FB168B.jpg
+  - assets/B6147453-44C3-43BF-A225-62F9CDEA3889.jpg
+  - assets/FE293416-B567-4631-B368-7DD6D749B3E2.jpg
 sort_order: 6
 ---
