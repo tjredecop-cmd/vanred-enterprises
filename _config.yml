@@ -1,0 +1,14 @@
+title: VanRed Enterprises
+url: "https://tjredecop-cmd.github.io"
+baseurl: "/vanred-enterprises"
+collections:
+  equipment:
+    output: true
+    permalink: /equipment/:name/
+defaults:
+  - scope:
+      path: ""
+      type: equipment
+    values:
+      layout: equipment
+encoding: UTF-8

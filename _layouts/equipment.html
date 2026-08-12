@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page.title }} | VanRed Enterprises</title>
+<meta name="description" content="{{ page.summary | escape }}">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+<style>
+.listing-hero{background:#111;color:#fff;padding:56px 0}.listing-title{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end}
+.listing-title h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(48px,7vw,84px);text-transform:uppercase;line-height:.95;margin:0}
+.listing-price{font-family:'Barlow Condensed',sans-serif;font-size:54px;font-weight:800;color:#d9b449;white-space:nowrap}.listing-main{padding:54px 0 90px}
+.listing-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(300px,.7fr);gap:42px;align-items:start}.gallery-main img{width:100%;max-height:720px;object-fit:cover}
+.thumb-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px}.thumb-grid button{border:0;padding:0;cursor:pointer;background:none}
+.thumb-grid img{width:100%;height:150px;object-fit:cover}.details-card,.description{background:#fff;border:1px solid #e2dfd4;padding:28px}
+.details-card{position:sticky;top:98px}.details-card h2,.description h2{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:38px;line-height:1}
+.spec{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid #ece9df}.spec strong{text-align:right}
+.listing-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px}.listing-actions .primary{grid-column:1/-1}.listing-actions .secondary{color:#111;border-color:#111}
+.description{margin-top:40px}.sold-banner{display:inline-block;background:#a61d24;color:#fff;font-weight:800;padding:7px 11px;text-transform:uppercase;letter-spacing:1px}
+@media(max-width:850px){.listing-title,.listing-grid{grid-template-columns:1fr}.details-card{position:static}.thumb-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:520px){.thumb-grid{grid-template-columns:repeat(2,1fr)}.thumb-grid img{height:120px}.listing-price{font-size:44px}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+<a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">VR</span><span class="brand-text"><strong>VanRed</strong><small>ENTERPRISES</small></span></a>
+<nav><a href="{{ '/#equipment' | relative_url }}">Equipment</a><a href="{{ '/#hauling' | relative_url }}">Hauling</a><a href="{{ '/#contact' | relative_url }}" class="nav-cta">Contact</a></nav>
+</div></header>
+
+<section class="listing-hero"><div class="wrap">
+{% if page.status == "Sold" %}<div class="sold-banner">Sold</div>{% else %}<p class="section-kicker">Available Now</p>{% endif %}
+<div class="listing-title"><div><h1>{{ page.title }}</h1><p>Cranford, Alberta{% if page.engine_hours %} • {{ page.engine_hours }} engine hours{% endif %}{% if page.cutting_hours %} • {{ page.cutting_hours }} cutting hours{% endif %}{% if page.bale_count %} • {{ page.bale_count }} bales{% endif %}</p></div>
+<div class="listing-price">{{ page.price }}</div></div></div></section>
+
+<main class="listing-main"><div class="wrap listing-grid"><div>
+<div class="gallery-main"><img id="mainPhoto" src="{{ page.main_image | relative_url }}" alt="{{ page.title }}"></div>
+{% if page.images %}
+<div class="thumb-grid">
+{% for image in page.images %}
+<button onclick="swapPhoto('{{ image | relative_url }}')"><img src="{{ image | relative_url }}" alt="{{ page.title }} photo"></button>
+{% endfor %}
+</div>
+{% endif %}
+<section class="description"><p class="section-kicker">Description</p><h2>{{ page.title }}</h2>
+<div>{{ content }}</div>
+{% if page.service_notes %}<p><strong>Service / condition:</strong> {{ page.service_notes }}</p>{% endif %}
+<p>Located in Cranford, Alberta. Contact VanRed Enterprises for more information or hauling options.</p></section>
+</div>
+
+<aside class="details-card"><p class="section-kicker">Machine Details</p><h2>{{ page.title }}</h2>
+<div class="spec"><span>Price</span><strong>{{ page.price }}</strong></div>
+{% if page.engine_hours %}<div class="spec"><span>Engine Hours</span><strong>{{ page.engine_hours }}</strong></div>{% endif %}
+{% if page.cutting_hours %}<div class="spec"><span>Cutting Hours</span><strong>{{ page.cutting_hours }}</strong></div>{% endif %}
+{% if page.bale_count %}<div class="spec"><span>Bale Count</span><strong>{{ page.bale_count }}</strong></div>{% endif %}
+{% if page.header %}<div class="spec"><span>Header</span><strong>{{ page.header }}</strong></div>{% endif %}
+{% if page.wrap %}<div class="spec"><span>Wrap</span><strong>{{ page.wrap }}</strong></div>{% endif %}
+{% if page.gps %}<div class="spec"><span>GPS</span><strong>{{ page.gps }}</strong></div>{% endif %}
+<div class="spec"><span>Status</span><strong>{{ page.status }}</strong></div>
+<div class="spec"><span>Location</span><strong>Cranford, Alberta</strong></div>
+<div class="listing-actions"><a class="btn primary" href="tel:+14036348781">Call 403-634-8781</a><a class="btn secondary" href="sms:+14036348781">Text Us</a><a class="btn secondary" href="mailto:tjredecop@gmail.com?subject={{ page.title | url_encode }}">Email</a></div>
+</aside></div></main>
+<script>function swapPhoto(src){document.getElementById('mainPhoto').src=src}</script>
+</body></html>

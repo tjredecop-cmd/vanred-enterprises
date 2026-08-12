@@ -1,0 +1,23 @@
+VANRED PAGES CMS SETUP
+
+This version converts the equipment ads into a Jekyll collection stored in _equipment/.
+GitHub Pages builds an individual page for every machine automatically.
+
+Pages CMS setup:
+1. Upload this entire folder's CONTENTS to the root of the vanred-enterprises GitHub repository.
+2. Let GitHub Pages rebuild the website.
+3. Go to https://app.pagescms.org
+4. Sign in with GitHub.
+5. Install/authorize Pages CMS for the vanred-enterprises repository.
+6. Open the repository in Pages CMS.
+7. Choose "Equipment Ads".
+
+From there you can:
+- Edit prices and hours
+- Change descriptions
+- Upload/reorder photos
+- Change Available to Sold
+- Add a new equipment ad
+- Delete an ad
+
+Saving in Pages CMS commits the change to GitHub; GitHub Pages then republishes automatically.
