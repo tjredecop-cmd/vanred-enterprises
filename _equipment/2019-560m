@@ -8,8 +8,15 @@ price: $45,000
 status: Available
 bale_count: 14051
 summary: 14,051 bales
-main_image:
+main_image: assets/IMG_1810.jpeg
 images:
+  - assets/IMG_1810.jpeg
+  - assets/IMG_1842.jpeg
+  - assets/IMG_1843.jpeg
+  - assets/IMG_1844.jpeg
+  - assets/IMG_1848.jpeg
+  - assets/IMG_1849.jpeg
+  - assets/IMG_1850.jpeg
 sort_order: 9
 ---
 
