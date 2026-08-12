@@ -1,6 +1,6 @@
 title: VanRed Enterprises
-url: "https://tjredecop-cmd.github.io"
-baseurl: "/vanred-enterprises"
+url: "https://vanredenterprises.ca"
+baseurl: ""
 collections:
   equipment:
     output: true
