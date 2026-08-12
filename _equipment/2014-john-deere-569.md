@@ -3,12 +3,12 @@ title: 2014 John Deere 569
 make: John Deere
 model: 569
 category: Baler
-price: $35,000
+price: $34,000
 status: Available
-bale_count: 15051
+bale_count: 15154
 wrap: Net Wrap & Twine
 pickup: MegaWidePlus
-summary: 15,051 bales • MegaWidePlus pickup • Net wrap & twine
+summary: 15,154 bales • Good shape • MegaWidePlus pickup • Net wrap & twine
 main_image: assets/88FE5CDC-FF3C-467F-88DB-443CC3FB168B.jpg
 images:
   - assets/88FE5CDC-FF3C-467F-88DB-443CC3FB168B.jpg
