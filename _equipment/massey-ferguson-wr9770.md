@@ -9,9 +9,15 @@ engine_hours: 1931
 cutting_hours: 1394
 header: TwinMax
 summary: 1,931 engine hours • 1,394 cutting hours • TwinMax header
-main_image: assets/massey-wr9770.jpeg
+main_image: assets/wr9770-front.jpeg
 images:
-- assets/massey-wr9770.jpeg
+- assets/wr9770-front.jpeg
+- assets/wr9770-right-side.jpeg
+- assets/wr9770-left-side.jpeg
+- assets/wr9770-service-notes.jpeg
+- assets/wr9770-driveline-left.jpeg
+- assets/wr9770-driveline-right.jpeg
+- assets/wr9770-monitor-hours.jpeg
 sort_order: 5
 ---
 
