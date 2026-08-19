@@ -1,6 +1,7 @@
 ---
-title: Massey Ferguson WR265
+title: 2023 Massey Ferguson WR265
 make: Massey Ferguson
+year: 2023
 model: WR265
 category: Windrower
 price: $265,000
@@ -22,4 +23,4 @@ images:
 sort_order: 2
 ---
 
-Massey Ferguson WR265 self-propelled windrower with RazorBar header and TwinMax conditioning system. Clean, well-presented machine.
+2023 Massey Ferguson WR265 self-propelled windrower with RazorBar header and TwinMax conditioning system. Clean, well-presented machine.
