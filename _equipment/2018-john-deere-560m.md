@@ -5,7 +5,7 @@ make: John Deere
 model: 560M
 category: Round Baler
 price: $47,000
-status: Available
+status: Sold
 bale_count: 11953
 wrap: Net wrap
 summary: 11,953 bales • Net wrap
