@@ -1,5 +1,6 @@
 ---
-title: Massey Ferguson WR9770
+title: 2012 Massey Ferguson WR9770
+year: 2012
 make: Massey Ferguson
 model: WR9770
 category: Windrower
