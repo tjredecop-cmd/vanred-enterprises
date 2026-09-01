@@ -1,5 +1,6 @@
 ---
-title: Massey Ferguson WR9980
+title: 2021 Massey Ferguson WR9980
+year: 2021
 make: Massey Ferguson
 model: WR9980
 category: Windrower
