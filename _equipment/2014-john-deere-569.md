@@ -4,7 +4,7 @@ make: John Deere
 model: 569
 category: Baler
 price: $34,000
-status: Available
+status: Sold
 bale_count: 15154
 wrap: Net Wrap & Twine
 pickup: MegaWidePlus

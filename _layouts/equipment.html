@@ -17,7 +17,7 @@
 .details-card{position:sticky;top:98px}.details-card h2,.description h2{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;font-size:38px;line-height:1}
 .spec{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid #ece9df}.spec strong{text-align:right}
 .listing-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px}.listing-actions .primary{grid-column:1/-1}.listing-actions .secondary{color:#111;border-color:#111}
-.description{margin-top:40px}.sold-banner{display:inline-block;background:#a61d24;color:#fff;font-weight:800;padding:7px 11px;text-transform:uppercase;letter-spacing:1px}
+.description{margin-top:40px}.sold-banner,.coming-soon-banner{display:inline-block;color:#fff;font-weight:800;padding:7px 11px;text-transform:uppercase;letter-spacing:1px}.sold-banner{background:#a61d24}.coming-soon-banner{background:#b58a13}
 @media(max-width:850px){.listing-title,.listing-grid{grid-template-columns:1fr}.details-card{position:static}.thumb-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:520px){.thumb-grid{grid-template-columns:repeat(2,1fr)}.thumb-grid img{height:120px}.listing-price{font-size:44px}}
 </style>
@@ -29,7 +29,7 @@
 </div></header>
 
 <section class="listing-hero"><div class="wrap">
-{% if page.status == "Sold" %}<div class="sold-banner">Sold</div>{% else %}<p class="section-kicker">Available Now</p>{% endif %}
+{% if page.status == "Sold" %}<div class="sold-banner">Sold</div>{% elsif page.status == "Coming Soon" %}<div class="coming-soon-banner">Coming Soon</div>{% else %}<p class="section-kicker">Available Now</p>{% endif %}
 <div class="listing-title"><div><h1>{{ page.title }}</h1><p>Cranford, Alberta{% if page.engine_hours %} • {{ page.engine_hours }} engine hours{% endif %}{% if page.cutting_hours %} • {{ page.cutting_hours }} cutting hours{% endif %}{% if page.bale_count %} • {{ page.bale_count }} bales{% endif %}</p></div>
 <div class="listing-price">{{ page.price }}</div></div></div></section>
 
