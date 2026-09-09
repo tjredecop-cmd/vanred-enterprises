@@ -5,7 +5,7 @@ make: Massey Ferguson
 model: WR9980
 category: Windrower
 price: $165,000
-status: Available
+status: Pending
 engine_hours: 2500
 cutting_hours: 1680
 header: TwinMax
