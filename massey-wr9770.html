@@ -11,11 +11,12 @@
 .listing-title h1{font-family:'Barlow Condensed';font-size:clamp(48px,7vw,84px);text-transform:uppercase;line-height:.95;margin:0}
 .listing-price{font-family:'Barlow Condensed';font-size:54px;font-weight:800;color:#d9b449}.listing-main{padding:54px 0 90px}
 .listing-grid{display:grid;grid-template-columns:1.6fr .7fr;gap:42px;align-items:start}.gallery-main img{width:100%;max-height:720px;object-fit:cover}
+.thumb-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px}.thumb-grid button{border:0;padding:0;cursor:pointer;background:none}.thumb-grid img{width:100%;height:160px;object-fit:cover}
 .details-card,.description{background:#fff;border:1px solid #e2dfd4;padding:28px}.details-card{position:sticky;top:98px}
 .details-card h2,.description h2{font-family:'Barlow Condensed';text-transform:uppercase;font-size:38px;line-height:1}
 .spec{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid #ece9df}.spec strong{text-align:right}
 .listing-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px}.listing-actions .primary{grid-column:1/-1}.listing-actions .secondary{color:#111;border-color:#111}
-.description{margin-top:40px}@media(max-width:850px){.listing-title,.listing-grid{grid-template-columns:1fr}.details-card{position:static}}@media(max-width:520px){.listing-price{font-size:44px}}
+.description{margin-top:40px}@media(max-width:850px){.listing-title,.listing-grid{grid-template-columns:1fr}.details-card{position:static}.thumb-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:520px){.listing-price{font-size:44px}.thumb-grid{grid-template-columns:repeat(2,1fr)}.thumb-grid img{height:120px}}
 </style></head><body>
 <header class="topbar"><div class="wrap nav"><a class="brand" href="index.html"><span class="brand-mark">VR</span><span class="brand-text"><strong>VanRed</strong><small>ENTERPRISES</small></span></a><nav><a href="index.html#equipment">Equipment</a><a href="index.html#contact" class="nav-cta">Contact</a></nav></div></header>
 <section class="listing-hero"><div class="wrap"><p class="section-kicker">Available Now</p><div class="listing-title"><div>
@@ -23,7 +24,19 @@
 <p>Cranford, Alberta • 1,931 engine hours • 1,394 cutting hours</p>
 </div><div class="listing-price">$150,000</div></div></div></section>
 <main class="listing-main"><div class="wrap listing-grid"><div>
-<div class="gallery-main"><img src="assets/massey-wr9770.jpeg" alt="Massey Ferguson WR9770"></div>
+<div class="gallery-main"><img id="mainPhoto" src="assets/wr9770-new-left-side.jpeg" alt="2012 Massey Ferguson WR9770"></div>
+<div class="thumb-grid">
+<button onclick="swapPhoto('assets/wr9770-new-left-side.jpeg')"><img src="assets/wr9770-new-left-side.jpeg" alt="WR9770 left side"></button>
+<button onclick="swapPhoto('assets/wr9770-new-rear.jpeg')"><img src="assets/wr9770-new-rear.jpeg" alt="WR9770 rear view"></button>
+<button onclick="swapPhoto('assets/wr9770-new-front.jpeg')"><img src="assets/wr9770-new-front.jpeg" alt="WR9770 front view"></button>
+<button onclick="swapPhoto('assets/wr9770-new-front-wide.jpeg')"><img src="assets/wr9770-new-front-wide.jpeg" alt="WR9770 wide front view"></button>
+<button onclick="swapPhoto('assets/wr9770-new-front-close.jpeg')"><img src="assets/wr9770-new-front-close.jpeg" alt="WR9770 close front view"></button>
+<button onclick="swapPhoto('assets/wr9770-new-left-tire.jpeg')"><img src="assets/wr9770-new-left-tire.jpeg" alt="WR9770 left tire"></button>
+<button onclick="swapPhoto('assets/wr9770-new-right-tire.jpeg')"><img src="assets/wr9770-new-right-tire.jpeg" alt="WR9770 right tire"></button>
+<button onclick="swapPhoto('assets/wr9770-driveline-left.jpeg')"><img src="assets/wr9770-driveline-left.jpeg" alt="WR9770 internal driveline left"></button>
+<button onclick="swapPhoto('assets/wr9770-driveline-right.jpeg')"><img src="assets/wr9770-driveline-right.jpeg" alt="WR9770 internal driveline right"></button>
+<button onclick="swapPhoto('assets/wr9770-monitor-hours.jpeg')"><img src="assets/wr9770-monitor-hours.jpeg" alt="WR9770 hour display"></button>
+</div>
 <section class="description"><p class="section-kicker">Description</p><h2>WR9770 with TwinMax Header</h2>
 <p>Massey Ferguson WR9770 self-propelled windrower with TwinMax header.</p>
 <ul><li>1,931 engine hours</li><li>1,394 cutting hours</li><li>TwinMax header</li></ul>
@@ -36,4 +49,4 @@
 <div class="spec"><span>Header</span><strong>TwinMax</strong></div>
 <div class="spec"><span>Location</span><strong>Cranford, Alberta</strong></div>
 <div class="listing-actions"><a class="btn primary" href="tel:+14036348781">Call 403-634-8781</a><a class="btn secondary" href="sms:+14036348781">Text Us</a><a class="btn secondary" href="mailto:vanredltd@gmail.com?subject=Massey%20Ferguson%20WR9770%20Inquiry">Email</a></div>
-</aside></div></main></body></html>
+</aside></div></main><script>function swapPhoto(src){document.getElementById('mainPhoto').src=src}</script></body></html>
