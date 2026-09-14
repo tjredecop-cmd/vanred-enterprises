@@ -21,7 +21,7 @@ images:
 - assets/wr9980-cab.jpeg
 - assets/wr9980-header-drive.jpeg
 - assets/wr9980-discs.jpeg
-sort_order: 4
+sort_order: 100
 ---
 
 Massey Ferguson WR9980 with TwinMax header and brand-new front tires. Header has all new bearings and U-joints.

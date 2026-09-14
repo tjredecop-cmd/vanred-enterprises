@@ -15,7 +15,7 @@ main_image: assets/wr265-2023-main.jpeg
 images:
 - assets/wr265-2023-main.jpeg
 - assets/wr265-2023-hours.jpeg
-sort_order: 6
+sort_order: 3
 ---
 
 2023 Massey Ferguson WR265 self-propelled windrower. Fully serviced.

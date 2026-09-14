@@ -20,7 +20,7 @@ images:
 - assets/wr265-twinmax-drive.jpeg
 - assets/wr265-header-top.jpeg
 - assets/wr265-header-drive.jpeg
-sort_order: 2
+sort_order: 1
 ---
 
 2023 Massey Ferguson WR265 self-propelled windrower with RazorBar header and TwinMax conditioning system. Clean, well-presented machine.

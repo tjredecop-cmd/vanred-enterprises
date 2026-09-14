@@ -22,7 +22,7 @@ images:
 - assets/wr9770-driveline-left.jpeg
 - assets/wr9770-driveline-right.jpeg
 - assets/wr9770-monitor-hours.jpeg
-sort_order: 5
+sort_order: 4
 ---
 
 Massey Ferguson WR9770 self-propelled windrower with TwinMax header.

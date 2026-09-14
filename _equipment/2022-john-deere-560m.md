@@ -21,7 +21,7 @@ images:
   - assets/2022-560m-net-wrap.jpeg
   - assets/2022-560m-moisture-reader.jpeg
   - assets/2022-560m-monitor.jpeg
-sort_order: 1
+sort_order: 10
 ---
 
 Clean 2022 John Deere 560M round baler with 10,135 bales. Equipped with a moisture reader and monitor.

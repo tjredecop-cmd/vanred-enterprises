@@ -21,7 +21,7 @@ images:
 - assets/560m-upper-drive.jpeg
 - assets/560m-chain-drive.jpeg
 - assets/560m-monitor.jpeg
-sort_order: 1
+sort_order: 101
 ---
 
 Good-condition John Deere 560M round baler with 9,950 bales. Comes with net wrap and twine. Belts and sprockets are in good shape. Monitor included.

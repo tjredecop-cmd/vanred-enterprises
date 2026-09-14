@@ -9,7 +9,7 @@ summary: Multiple 569 & 560M balers available • $32,000–$52,000
 main_image: assets/baler-selection.jpeg
 images:
 - assets/baler-selection.jpeg
-sort_order: 8
+sort_order: 11
 ---
 
 Multiple John Deere 569 and 560M round balers available. Several units to choose from. Contact for individual bale counts, configurations, and pricing.

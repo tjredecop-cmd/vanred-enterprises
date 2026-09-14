@@ -20,7 +20,7 @@ images:
 - assets/wr9970-cab.jpeg
 - assets/wr9970-discs.jpeg
 - assets/wr9970-monitors.jpeg
-sort_order: 3
+sort_order: 2
 ---
 
 Low-hour 2021 Massey Ferguson WR9970 self-propelled windrower with TwinMax 9316D header and John Deere screen with RTK GPS.

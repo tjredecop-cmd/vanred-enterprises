@@ -13,7 +13,7 @@ main_image: assets/560m-2018-main.jpeg
 images:
 - assets/560m-2018-main.jpeg
 - assets/560m-2018-count.jpeg
-sort_order: 7
+sort_order: 103
 ---
 
 2018 John Deere 560M round baler with 11,953 bales and net wrap.
