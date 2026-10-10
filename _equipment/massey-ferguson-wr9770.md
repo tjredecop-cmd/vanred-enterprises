@@ -5,7 +5,7 @@ make: Massey Ferguson
 model: WR9770
 category: Windrower
 price: $150,000
-status: Pending
+status: Available
 engine_hours: 1931
 cutting_hours: 1394
 header: TwinMax
