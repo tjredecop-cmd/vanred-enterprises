@@ -8,7 +8,15 @@ price: "$200,000"
 status: Available
 bale_count: 22000
 summary: "3×4 square baler • 22,000 bales • ISOBUS • Monitor • Big 1000 PTO • Tandem steering axle"
-main_image: assets/baler-selection.jpeg
+main_image: assets/2023-massey-ferguson-lb2234xd-1.jpg
+images:
+  - assets/2023-massey-ferguson-lb2234xd-1.jpg
+  - assets/2023-massey-ferguson-lb2234xd-2.jpg
+  - assets/2023-massey-ferguson-lb2234xd-3.jpg
+  - assets/2023-massey-ferguson-lb2234xd-4.jpg
+  - assets/2023-massey-ferguson-lb2234xd-5.jpg
+  - assets/2023-massey-ferguson-lb2234xd-6.jpg
+  - assets/2023-massey-ferguson-lb2234xd-7.jpg
 sort_order: 9
 ---
 
@@ -20,5 +28,3 @@ sort_order: 9
 - Tandem axle with steering
 
 Located in Southern Alberta. Contact VanRed Enterprises at 403-634-8781.
-
-Photos of this specific baler are being added. The current inventory thumbnail is a temporary general equipment image.
