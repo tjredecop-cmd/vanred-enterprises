@@ -8,8 +8,10 @@ price: "$200,000"
 status: Available
 bale_count: 22000
 summary: "3×4 square baler • 22,000 bales • ISOBUS • Monitor • Big 1000 PTO • Tandem steering axle"
-main_image: assets/2023-massey-ferguson-lb2234xd-1.jpg
+main_image: assets/2023-massey-ferguson-lb2234xd-front.jpg
 images:
+  - assets/2023-massey-ferguson-lb2234xd-front.jpg
+  - assets/2023-massey-ferguson-lb2234xd-rear.jpg
   - assets/2023-massey-ferguson-lb2234xd-1.jpg
   - assets/2023-massey-ferguson-lb2234xd-2.jpg
   - assets/2023-massey-ferguson-lb2234xd-3.jpg
