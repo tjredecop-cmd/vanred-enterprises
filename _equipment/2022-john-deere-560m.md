@@ -5,7 +5,7 @@ make: John Deere
 model: 560M
 category: Round Baler
 price: $52,000
-status: Available
+status: Sold
 bale_count: 10135
 moisture_reader: Yes
 serial_number: 1E0560MDKNN485627
